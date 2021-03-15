@@ -11,7 +11,7 @@
         <p>Enter a URL of an article / a blog to discover its sentiment.</p>
         <section>
           <form id="form">
-            <label for="article-url">URL</label>
+           
             <input id="article-url" type="text" name="input" value="" placeholder="Enter Article URL here" />
             <button
               type="submit"
@@ -22,8 +22,8 @@
           </form>
         </section>
 
-        <section>
-          <strong>Form Results:</strong>
+        <section class="results">
+          <div class="error"></div>
           <div id="text"></div>
           <div id="agreement"></div>
           <div id="subjectivity"></div>
@@ -31,6 +31,9 @@
           <div id="irony"></div>
           <div id="score_tag"></div>
         </section>
+          
+            
+          </div>
       </div>
     </main>
     <script>
